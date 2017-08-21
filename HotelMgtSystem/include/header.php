@@ -5,31 +5,25 @@
 <html>
     <head>
         <title>Hotel Management System</title>
-        <link href="../css/style.css" rel="stylesheet">
+        <link href="../css/headerStyle.css" rel="stylesheet">
     </head>
     <body>
-        <div>
-            <table>
-                <tr>
-                    <td><img id="userlogo" src="../images/user.jpg"></td>
-                    <td>LasiniCL</td>
-                </tr>
-            </table>
-        </div>
-
+    <div id="header">
+        
+        <div id="nav">
         <ul>
             <li><a>Rooms</a>
                 <ul>
-                    <li><a>Reserve Room</a></li>
-                    <li><a>Update Reservation</a></li>
-                    <li><a>Delete Reservation</a></li>
+                    <li><a href="../rooms/reserveroom.php">Reserve Room</a></li>
+                    <li><a  href="../rooms/update.php">Update Reservation</a></li>
+                    <li><a  href="../rooms/update.php">Delete Reservation</a></li>
                 </ul>
             </li>
             <li><a>Events</a>
                 <ul>
-                    <li><a>Add Event</a></li>
-                    <li><a>Update Event</a></li>
-                    <li><a>Delete Event</a></li>
+                    <li><a href="../event/AddEvent.php">Add Event</a></li>
+                    <li><a href="../event/UpdateEvent.php">Update Event</a></li>
+                    <li><a href="../event/DeleteEvent.php">Delete Event</a></li>
                 </ul>
             </li>
             <li><a>Restaurant</a>
@@ -41,20 +35,37 @@
             </li>
             <li><a>Stock</a>
                 <ul>
-                    <li><a>Add Item</a></li>
-                    <li><a>Update Item</a></li>
-                    <li><a>Delete Item</a></li>
+                    <li><a href="../stock/AddItem.php">Add Item</a></li>
+                    <li><a href="../stock/UpdateItem.php">Update Item</a></li>
+                    <li><a href="../stock/DeleteItem.php">Delete Item</a></li>
                 </ul>
             </li>
             <li><a>Employees</a>
                 <ul>
-                    <li><a>Add Employee</a></li>
-                    <li><a>Update Employee</a></li>
-                    <li><a>Delete Employee</a></li>
+                    <li><a href="../employee/AddEmployee.php">Add Employee</a></li>
+                    <li><a href="../employee/employeelist.php">Update Employee</a></li>
+                    <li><a href="../employee/employeelist.php">Delete Employee</a></li>
                 </ul>
             </li>
-            <li></li>
+            
+            
+            
         </ul>
+
+        
+        </div>
+        <div id="user">
+
+            <table align="right">
+                <tr>
+                    <td><img id="userlogo" src="../images/user.jpg"></td>
+                    <td id="admin"><b>Admin</b></td>
+                    <td><a href="../index.php" class="signoutLink"><b>LogOut</b></td>
+                </tr>
+            </table>
+        </div>
+
+        </div>
 
     </body>
 </html>
