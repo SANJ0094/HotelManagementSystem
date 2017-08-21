@@ -1,0 +1,78 @@
+body{
+    background: url("../images/hotel.jpg")no-repeat;
+    background-size: cover;
+    padding-left: 40%;
+    padding-top: 5%;
+}
+
+.login{
+    
+    background-color: rgba(255, 255, 255, 0.9);
+    padding-left: 3%;
+    padding-top: 5%;
+    width: 35%;
+    height: 80%;
+    opacity: inherit;
+    border-radius: 9px;
+    
+}
+
+.logbt{
+   
+	height: 50px;
+    width: 250px;
+	background-color: #3366CC;
+	color:white;
+	border-style: solid;
+	border-radius: 3px;
+	font-weight: bold;
+    border-radius: 8px;
+}
+.logbt:hover{
+	background-color: #3333CC;
+}
+
+.input{
+    
+    font-size: 15px;
+    border: solid 1px #dcdcdc;
+    text-align: center;
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    
+}
+
+.input:hover{
+    
+    background-color: lightblue;
+}
+
+.logo{
+    
+    height: 150px;
+    width: 240px;
+}
+
+.gap>td{
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.Reglink>td{
+    padding-top: 50px;
+    text-align: center;
+    color: cornflowerblue;
+}
+
+a{
+    text-decoration: none;
+    background-color: darkslateblue;
+    color: aliceblue;
+}
+
+.error{
+    color: red;
+    text-align: center;
+}
